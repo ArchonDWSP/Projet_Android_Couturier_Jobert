@@ -3,23 +3,23 @@
 
     <string name="app_name">La Biblio</string>
     <string name="action_exit">exit</string>
-    <string name="Button1">Rechercher un livre</string>
-    <string name="Button2">Top Livres</string>
-    <string name="instructions">Entrer nom livre </string>
-    <string name="button_text">Rechercher</string>
-    <string name="input_hint">Titre du livre</string>
-    <string name="no_search_term">Entrer un nom</string>
-    <string name="no_network">Verifier votre connexion</string>
-    <string name="no_results">Aucun résultat trouvé</string>
-    <string name="refresh">Rafraichir</string>
+    <string name="Button1">Search</string>
+    <string name="Button2">Top Books</string>
+    <string name="instructions">Enter book name. </string>
+    <string name="button_text">Search Books</string>
+    <string name="input_hint">Book Title</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="no_results">No Results Found</string>
+    <string name="refresh">Refresh</string>
     <string name="home">Home</string>
-    <string name="title">Titre :</string>
+    <string name="title">Title :</string>
     <string name="description">Description :</string>
     <string name="sett_reminder_header">Set Reminder</string>
     <string name="sett_reminder_label">Remind Me</string>
     <string name="sett_reminder_desc">We will remind you to make entiries of your expense</string>
     <string name="sett_reminder_time_label">Set Reminder Time</string>
     <string name="sett_reminder_time_content">8 : 00 PM</string>
-    <string name="settings">Paramètres</string>
+    <string name="settings">Settings</string>
 
 </resources>

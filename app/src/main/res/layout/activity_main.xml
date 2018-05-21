@@ -12,8 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="La Biblio maggle!"
-        android:textSize="42dp"
+        android:text="@string/app_name"
+        android:textSize="42sp"
         android:id="@+id/Titre"
         android:textColor="#ffffff"
         />
@@ -23,16 +23,24 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Le Bouton Magic"
-        android:id="@+id/Button"
+        android:text="@string/Button1"
+        android:id="@+id/Button1"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/Milieu"
+        />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Livre Aléatoire"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/Button"
         android:id="@+id/Button2"
+        android:text="@string/Button2"
+        android:layout_below="@id/Button1"
+        android:layout_centerHorizontal="true"
         />
 
 </RelativeLayout>

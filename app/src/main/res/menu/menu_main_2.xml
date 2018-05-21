@@ -15,4 +15,19 @@
         app:actionViewClass="android.widget.SearchView"
         />
 
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        app:showAsAction="always"
+        android:icon="@drawable/baselinehomeblack"
+        />
+
+
+    <item
+        android:id="@+id/refresh"
+        android:title="@string/refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/baselineupdateblack"
+        />
+
 </menu>
