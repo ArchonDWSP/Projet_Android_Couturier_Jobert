@@ -44,6 +44,8 @@ public class MainActivity2 extends AppCompatActivity{
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
 
         if (networkInfo != null && networkInfo.isConnected() && queryString.length()!=0) {
+            Toast.makeText(MainActivity2.this,
+                    "Downloading", Toast.LENGTH_SHORT).show();
             new FetchBook(mTitleText, mAuthorText, mBookInput).execute(queryString);
             Toast.makeText(MainActivity2.this,
                     "Downloaded", Toast.LENGTH_LONG).show();
