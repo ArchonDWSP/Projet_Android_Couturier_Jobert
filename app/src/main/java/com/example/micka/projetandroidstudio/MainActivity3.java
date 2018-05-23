@@ -37,7 +37,7 @@ public class MainActivity3 extends AppCompatActivity {
     private void initData() {
         listData.add(new Data(R.drawable.alacroiseedesmondes,"A la croisée des mondes"));
         listData.add(new Data(R.drawable.artemisfowl,"Artemis Fowl"));
-        listData.add(new Data(R.drawable.harrypotter,"Harry Potter"));
+        listData.add(new Data(R.drawable.harrypotter2,"Harry Potter"));
         listData.add(new Data(R.drawable.hungergames,"Hunger Games"));
         listData.add(new Data(R.drawable.percyjackson,"Percy Jackson"));
         listData.add(new Data(R.drawable.twilight,"Twilight"));
