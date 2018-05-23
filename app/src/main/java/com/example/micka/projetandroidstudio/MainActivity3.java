@@ -42,12 +42,6 @@ public class MainActivity3 extends AppCompatActivity {
         listData.add(new Data(R.drawable.percyjackson,"Percy Jackson"));
         listData.add(new Data(R.drawable.twilight,"Twilight"));
 
-        listData.add(new Data(R.drawable.alacroiseedesmondes,"A la croisée des mondes"));
-        listData.add(new Data(R.drawable.artemisfowl,"Artemis Fowl"));
-        listData.add(new Data(R.drawable.harrypotter,"Harry Potter"));
-        listData.add(new Data(R.drawable.hungergames,"Hunger Games"));
-        listData.add(new Data(R.drawable.percyjackson,"Percy Jackson"));
-        listData.add(new Data(R.drawable.twilight,"Twilight"));
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

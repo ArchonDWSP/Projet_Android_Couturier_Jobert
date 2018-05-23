@@ -13,6 +13,7 @@
         android:textSize="42sp"
         android:id="@+id/Titre"
         android:textColor="#ffffff"
+        android:background="#41000000"
         />
 
     <Button

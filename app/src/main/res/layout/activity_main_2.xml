@@ -37,9 +37,16 @@
 
     <TextView
         android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/alignement"
+        android:layout_below="@id/searchButton"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title"
-        android:layout_below="@id/searchButton"
+        android:layout_below="@id/alignement"
         android:id="@+id/title"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         />
@@ -47,15 +54,29 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/titleText"
+        android:id="@+id/soustitre"
         android:layout_below="@id/title"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/description"
+        android:id="@+id/titleText"
+        android:layout_below="@id/soustitre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
         android:layout_below="@id/titleText"
+        android:id="@+id/separateur"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:layout_below="@id/separateur"
         android:id="@+id/description"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         />
@@ -64,8 +85,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/authorText"
+        android:id="@+id/sousdesc"
         android:layout_below="@id/description"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/authorText"
+        android:layout_below="@id/sousdesc"
         />
 
 </RelativeLayout>
