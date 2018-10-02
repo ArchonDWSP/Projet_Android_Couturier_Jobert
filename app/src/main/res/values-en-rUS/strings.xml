@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">La Biblio</string>
-    <string name="action_exit">exit</string>
+    <string name="action_exit">Exit</string>
     <string name="Button1">Search</string>
     <string name="Button2">Top Books</string>
     <string name="instructions">Enter book name. </string>
